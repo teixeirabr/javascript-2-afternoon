@@ -13,6 +13,12 @@
   Give it a key of name with the value being your name, and another key of age with the value being your age.
   Then alert your name using dot notation.
 */
+let me = {
+  name: "andre",
+  age: 35,
+}
+ console.log(name)
+
 
 //Code here
 
@@ -23,6 +29,15 @@
   Have the values to those keys be strings that are equal to your favorite thing in that category.
 */
 
+let favoriteThings = {
+  band: "metallica",
+  food: "apple",
+  person: "larissa",
+  book: "alquimista",
+  movie: "et",
+  holiday: "any",
+  
+}
 //Code here
 
 /*
@@ -30,14 +45,17 @@
   and then another key named 'brand' with the value being your favorite brand.
 */
 
-//Code here
+favoriteThings.car = "BMW"
+favoriteThings.brand = "rolex"
 
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
   and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
 */
 
-//Code here
+favoriteThings.food = "Chicken Nuggets"
+favoriteThings.book = "Harry Potter"
+//
 
 ////////// PROBLEM 3 //////////
 
@@ -48,12 +66,20 @@
   Set the value of that key to 'chapstick'.
   Using dot notation, add another key (or property) to your backPack object that is named color, with the value being the color of your backpack.
 */
+let backPack = {};
 
-//Code here
+let item = "firstPocket"
+
+backPack[item] = "chapstick"
+
+backPack.color = "red"
+
+//
 
 /*
   After you do the above, alert your entire backPack object.
 */
+alert(backPack);
 
 //Code here
 
@@ -63,7 +89,7 @@ Alerting to see the data in your Object doesn't work so well.
 Instead, console.log your whole backPack object and then check out the console.
 */
 
-//Code here
+console.log(backPack);
 
 ////////// PROBLEM 4 //////////
 
@@ -83,8 +109,11 @@ var user2 = {
   name -> 'Bryan G. Smith' and email -> 'bryan.smith@devmounta.in'.
   Make that change without modifying the original object code above.
 */
+user2.name = 'Bryan G. Smith'
+user2.email = 'bryan.smith@devmounta.in'
 
 //Code Here
+
 
 /////////////////////// EXTRA PRACTICE PROBLEMS BELOW ////////////////////
 ////////// MOVE ONTO NEXT SECTION BEFORE WORKING ON THESE ////////////////
